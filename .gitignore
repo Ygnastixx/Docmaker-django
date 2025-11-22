@@ -1,0 +1,34 @@
+# Python
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenv
+.env
+.venv/
+
+# Secrets
+*.key
+*.pem
+
+# Django stuff
+*.log
+staticfiles/
+media/
+
+# Django migrations cache
+*/migrations/
+
+# IDE
+*.idea
+*.vscode/
+
+# DB and OS junk
+.DS_Store
+Thumbs.db
+*.sqlite3
+
+# Other files
+templates_admin/generated_docs/
+templates_admin/doc_templates/
